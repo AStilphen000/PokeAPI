@@ -18,7 +18,6 @@ const resume = {
         "label": "Programmer",
         "picture": "",
         "email": "john@gmail.com",
-        "phone": "(912) 555-4321",
         "website": "http://johndoe.com",
         "summary": "A summary of John Doe...",
         "location": {
@@ -142,8 +141,9 @@ const hbs = require('express-handlebars')({
 */
 app.get("/", (request, res) => {
     res.render('index', {
+      img: 'testimonial-2.jpg',
       name: resume.basics.name,
-      skills: resume.skills
+      skills: resume.skills 
     });
   });
 
