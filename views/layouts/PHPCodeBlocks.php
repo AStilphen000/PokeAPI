@@ -16,8 +16,11 @@ Date: 1.15.20
     <p>
     <?php 
     echo "This test is displayed using standard PHP script delimiters<br>";
-    print "Second string";
+    print "Second string<br>";
+    print("Third string");
+    echo("<h1>This is a"." multiple argument string</h1>");
+    print("<h2>This is some math".(2-3)."</h2>");
     ?>
     </p>
 </body>
-</html>
+</html> 
