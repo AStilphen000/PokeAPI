@@ -23,10 +23,12 @@
     
     <?php
     echo "<p>Hello $worldVar!<br>";
-    echo "The $worldVar is ",WORLD_INFO," miles from the $sunVar.<br>";
+    echo "The $worldVar is ",number_format(WORLD_INFO,0)," miles from the $sunVar.<br>";
     echo "Hello", $sunVar, "!<br>";
+    echo "The $sunVar's core tempature is approximatley ",number_format(SUN_INFO,2)," degrees Fahrenheit.<br>";
     echo "Hello", $moonVar, "!<br>";
-    echo "The $moonVar is ",MOON_INFO," miles in diameter. </p>";
+    echo "The $moonVar is ",number_format(MOON_INFO,0)," miles in diameter. </p>";
+   
     ?>
 </body>
 </html>

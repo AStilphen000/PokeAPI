@@ -7,7 +7,7 @@
     <title>PHP Code Blocks</title>
 <!-- 
 Exercise 02_02_01
-Author: Angelina Stiphen
+Author: Angelina Stilphen
 Date: 1.15.20
 
 -->
