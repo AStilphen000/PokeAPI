@@ -38,6 +38,40 @@
     echo 'value1: ', $value1, ' $value2: ', $value2, "<br>";
     echo 'After $value1 <> $value2 $returnValue is: ', 
         $returnValue, "<br>";
+    echo "<h2>Relational Greater Than Operator</h2>";
+    $returnValue = ($value1 > $value2 ? "true" : "false");
+    echo '$value1: ', $value1, '$value2: ', $value2, "<br>";
+    echo 'After $value1 > $value2 $returnValue is: ',
+        $returnValue, "<br>";
+    echo "<h2>Relational Less Than Operator</h2>";
+    $returnValue = ($value1 < $value2 ? "true" : "false");
+    echo '$value1: ', $value1, '$value2: ', $value2, "<br>";
+    echo 'After $value1 < $value2 $returnValue is: ',
+        $returnValue, "<br>";
+    echo "<h2>Relational Greater Than Or Equal To Operator</h2>";
+    $returnValue = ($value1 >= $value2 ? "true" : "false");
+    echo '$value1: ', $value1, '$value2: ', $value2, "<br>";
+    echo 'After $value1 >= $value2 $returnValue is: ',
+        $returnValue, "<br>";
+    echo "<h2>Relational Less Than Or Equal To Operator</h2>";
+    $returnValue = ($value1 <= $value2 ? "true" : "false");
+    echo '$value1: ', $value1, '$value2: ', $value2, "<br>";
+    echo 'After $value1 <= $value2 $returnValue is: ',
+        $returnValue, "<br>";
+    echo "<h2>Relational Equal Values and Same Data Type Operator</h2>";
+    $returnValue = ($value1 === $value2 ? "true" : "false");
+    echo '$value1: ', $value1, '$value2: ', $value2, "<br>";
+    echo 'After $value1 === $value2 $returnValue is: ',
+        $returnValue, "<br>";
+    echo "<h2>Relational Equal Values and Not Same Data Type Operator</h2>";
+    $returnValue = ($value1 !== $value2 ? "true" : "false");
+    echo '$value1: ', $value1, '$value2: ', $value2, "<br>";
+    echo 'After $value1 !== $value2 $returnValue is: ',
+        $returnValue, "<br>";
+    
+    echo "<h2>The gettype() Function</h2>";
+    echo 'After gettype($returnValue) call: ',
+        gettype($returnValue), "</p>";
     ?>
 </body>
 </html>
